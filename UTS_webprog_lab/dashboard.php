@@ -10,7 +10,6 @@ if (!isset($_SESSION["user_id"])) {
 <html>
 <head>
     <title>Dashboard</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div class="container">
