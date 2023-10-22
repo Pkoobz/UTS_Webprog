@@ -1,0 +1,13 @@
+CREATE DATABASE taco;
+USE taco;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    firstname VARCHAR(50) NOT NULL,
+    lastname VARCHAR(50) NOT NULL,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL, -- Add this line for email
+    password VARCHAR(255) NOT NULL,
+    birthdate DATE NOT NULL,
+    gender ENUM('male', 'female') NOT NULL
+);
