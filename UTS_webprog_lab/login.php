@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
    <div class="signin"> 
     <div class="content"> 
      <h2>Sign In</h2> 
-     <form action="l" method="POST">
+     <form action="" method="POST">
      <div class="form"> 
       <div class="inputBox"> 
        <input type="text" name="username" required> <i>Username</i> 
