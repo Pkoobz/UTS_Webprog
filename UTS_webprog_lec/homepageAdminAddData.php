@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
     <title>Document</title>
     <style>
         .custom-input {
@@ -51,18 +53,30 @@
     $errors = array(); // Initialize an empty errors array
 
     if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["Add"])) {
-        // Get form field values
         $name = isset($_POST["name"]) ? $_POST["name"] : "";
         $price = isset($_POST["price"]) ? $_POST["price"] : "";
         $type = isset($_POST["type"]) ? $_POST["type"] : "";
         $description = isset($_POST["description"]) ? $_POST["description"] : "";
         
+        if (empty($_POST['name'])) {
+            $errors[] = "name is required.";
+        }
+        if (empty($_POST['price'])) {
+            $errors[] = "price is required.";
+        }
+        if (empty($_POST['type'])) {
+            $errors[] = "type is required.";
+        }
+        if (empty($_POST['description'])) {
+            $errors[] = "description is required.";
+        }
+
         if (empty($_FILES['photo']['name'])) {
             $errors[] = "Photo is required.";
         }
         
         if (empty($errors)) {
-            // Continue with database insertion and file upload
+    
             $filename = $_FILES["photo"]["name"];
             $tempname = $_FILES["photo"]["tmp_name"];
             $folder = "./image/" . $filename;
