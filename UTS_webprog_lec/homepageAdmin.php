@@ -110,13 +110,13 @@ while ($hasil = mysqli_fetch_array($query)) {
   echo "<td class='align-middle text-center'><center><img src='./image/{$hasil['Photo']}' style='width: 150px;border: 2px solid #222; padding: 2px;' class='img-fluid rounded'></center></td>";
   echo '<td class="align-middle text-center"><div class="container">
     <div class="mx-auto">
-    <a href="homepageAdmin.php?Name=' . $hasil["Name"] . '">
         <center>
-          <button class="btn btn-danger btn-lg custom-button2">
+          <form method="post" action="homepageAdmin.php?Name=' . $hasil["Name"] . '" onsubmit="return confirm(\'Are you sure you want to delete '.$hasil["Name"].'?\');">
+          <button type="submit" class="btn btn-danger btn-lg custom-button2">
             <h2 style="font-family: verdana; font-size: 20px;">X</h2>
           </button>
+          </form>
         </center>
-      </a>
     </div>
   </div></td>';
   echo '<td class="align-middle text-center"><div class="container">

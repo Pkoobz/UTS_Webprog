@@ -108,7 +108,7 @@ if (isset($_GET['Description'])) {
 ?>
 
 <div class="container-md">
-    <form action="" method="POST" enctype="multipart/form-data">
+    <form action="" method="POST" enctype="multipart/form-data" onsubmit="return confirm('Is the update already correct?');">
         <div class="mb-3">
             <label for="name" class="form-label"><h5>Name</h5></label>
             <input type="text" class="form-control custom-input" id="name" name="name" value="<?php echo $data['Name']; ?>">
