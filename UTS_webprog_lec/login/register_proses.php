@@ -18,6 +18,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $result = $db->prepare($sql);
     $result->execute([$firstname, $lastname, $username, $email, $en_pass, $birthdate, $gender]);
 
-    header('location: login_user.php');
+    header('location: login_user.html');
 }
 ?>
