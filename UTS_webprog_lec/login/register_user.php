@@ -13,16 +13,16 @@
     	<div class="biggest">
     		<div class="nav">
     			<ul>
-    				<li><img src="https://i.imgur.com/cqN7DSd.png" width="70" height="70" /></li>
-    				<li class="move1"><a class="login1" href="login_user.html"><i class="fa fa-user-o" aria-hidden="true"></i> Login</a></li>
+    				<li><img src="image/taco_bell.jpg" width="100" height="70" /></li>
+    				<li class="move1"><a class="login1" href="login_user.php"><i class="fa fa-user-o" aria-hidden="true"></i> Login</a></li>
     				<li class="move2"><a class="sign-up" href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Register</a></li>
 					<hr/>
     			</ul>
     			
     		<div class="intro">
     			<div class="par">
-	    			<h3>Welcome To Your account.</h3>
-	    			<span>Designed With love <br>by Kouloughli Hemza</span>
+                    <h3>Welcome To Taco Bell.</h3>
+	    			<span>Please login first to place your order <br>by yours truly manfred von karma</span>
 	    			<div class="social">
 	    				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 						<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -47,7 +47,7 @@
 	    				<!--<span><input type="submit" value=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span>-->
 	    				<button><i class="fa fa-plus" aria-hidden="true"></i></button>
 	    				</form><br>
-	    				<b>Already Have An account ?<span class="login1"><a href="login_user.html"> Log in</a></span></b>
+	    				<b>Already Have An account ?<span class="login1"><a href="login_user.php"> Log in</a></span></b>
 	    			</div>
                 </div>
     	</div>

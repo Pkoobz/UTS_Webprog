@@ -1,33 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Tacobell</title>
-    <link rel="stylesheet" href="login_user.css">
-</head>
-<body>
-    <header>
-        <h1>Tacobell</h1>
-    </header>
-    <main>
-        <div class="login-form">
-            <form action="login_user_proses.php" method="POST">
-                <label for="username">Username/Email:</label>
-                <input type="text" name="username" required>
-                <label for="password">Password:</label>
-                <input type="password" name="password" required>
-                <img src="captcha.php" alt="Captcha Image">
-                <label for="captcha">Enter the Captcha:</label>
-                <input type="text" name="captcha" required>
-                <button type="submit">Login</button>
-                <div class="links">Don't have an account?</a> 
-                <a href="register_user.php">Register</a> 
-            </form>
-        </div>
-    </main>
-</body>
-</html> -->
-
 	<head>
 		<meta charset="utf-8">
    		<meta name="keywords" content="Admin Login By Zaki" >
@@ -40,23 +10,20 @@
     </head>
     <body>
 	
-    	<div class="biggest">
-    	<!-- Start Navigation here-->
-		
+    	<div class="biggest">		
     		<div class="nav">
     			<ul>
 			
-    				<li><img src="https://i.imgur.com/cqN7DSd.png" width="70" height="70" /></li>
+    				<li><img src="image/taco_bell.jpg" width="100" height="70" /></li>
     				<li class="move1"><a class="login1" href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Login</a></li>
     				<li class="move2"><a class="sign-up" href="register_user.php"><i class="fa fa-user-o" aria-hidden="true"></i> Register</a></li>
 					<hr/>
     			</ul>
     			
-    			<!-- Start Introduction here-->
     		<div class="intro">
     			<div class="par">
-	    			<h3>Welcome To Your account.</h3>
-	    			<span>Designed With love <br>by Kouloughli Hemza</span>
+	    			<h3>Welcome To Taco Bell.</h3>
+	    			<span>Please login first to place your order <br>by yours truly manfred von karma</span>
 	    			<div class="social">
 	    				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 						<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
