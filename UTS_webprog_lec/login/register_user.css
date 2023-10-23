@@ -8,13 +8,10 @@
 }
 
 body {
-
   background: linear-gradient(9deg, rgb(211, 217, 231), rgb(175, 186, 206));
   background: -webkit-linear-gradient(9deg, rgb(211, 217, 231), rgb(175, 186, 206));
   font-family: 'Roboto', sans-serif;
   overflow: hidden;
-  
-
 }
 
 
@@ -22,6 +19,7 @@ body {
 	margin: 80px 10%;
 }
 
+/* Start Navigation here */
 .nav {
 	background-color:#fff;
 	min-width: 160px;
@@ -83,7 +81,9 @@ hr {
 .fa {
 	color: #BEBEC0;
 }
+/* Start Navigation here */
 
+/* Start Introduction */
 .intro {
 	background-color: #1A33D5;
     min-height: 520px;
@@ -131,6 +131,9 @@ hr {
 
 	margin-right: 15px;
 }
+/* End Introduction */
+
+/* Start The Forms */
 
 .container {
 	position: relative;
@@ -141,6 +144,7 @@ hr {
 	align-items: center;
 	justify-content: center;
 }
+
 .container .login {
 	position: absolute;
 	top:0;
@@ -279,7 +283,72 @@ hr {
 .regopen {
 	left:0!important;
 }
-/* reg end form */
 
+/* .container .reg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 300px; 
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+    padding: 20px; 
+    transition: 0.5s cubic-bezier(0.4, 0.0, 1, 1);
+}
 
-/* End Of the Forms */
+.container .reg p {
+    color: #BEBEC0;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.container .reg p span a,
+.container .reg p span {
+    color: #1A33D5;
+    font-weight: 900;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.container .reg input {
+    display: block;
+    margin-top: 10px; 
+    padding: 10px;
+    width: 100%; 
+    color: #BEBEC0;
+    outline: none;
+    transition: 0.6s linear;
+    color: #757575;
+    border: 0;
+    box-shadow: -9px 7px 17px #ddd;
+    transition: 0.6s ease-in-out;
+}
+
+.container .reg input:focus {
+    border: 2px solid #4259DD;
+}
+
+.container .reg button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 15px auto;
+    background-color: #1A33D5;
+    color: #fff;
+    outline: none;
+    display: block;
+    border: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    cursor: pointer;
+}
+
+.container .reg button:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.regopen {
+    left: 0!important;
+} */
+
