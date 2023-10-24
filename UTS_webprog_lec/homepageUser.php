@@ -24,7 +24,7 @@
           <a class="nav-link" aria-current="page" href="#">Logout</a>
         </li>
         <li>
-          <a href=""><img src="./gambar/keranjang2.png" alt="" class="img" style="max-width: 50px; height: auto;"></a>
+          <a href="shoppingcart.php"><img src="./gambar/keranjang2.png" alt="" class="img" style="max-width: 50px; height: auto;"></a>
         </li>
       </ul>
     </div>
