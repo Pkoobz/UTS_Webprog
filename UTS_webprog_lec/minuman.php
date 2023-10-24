@@ -26,30 +26,59 @@
             </div>
           <p class="text-center fw-bold fs-1">DRINKS</p>
     </div>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-4 mb-5">
-              <a href="homepageUser.php">
-                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail custom-image">
-              </a>
-            </div>
-            <div class="col-md-4 mb-5">
-                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail">
-            </div>
-            <div class="col-md-4 mb-5">
-                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail">
-            </div>
-            <div class="col-md-4 mb-5">
-                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail">
-            </div>
-            <div class="col-md-4 mb-5">
-                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail">
-            </div>
-            <div class="col-md-4 mb-5">
-                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail">
-            </div>
-        </div>
+    <?php
+$con = mysqli_connect("localhost", "root", "", "restoran_database");
+$q = "SELECT * FROM `food data` WHERE Type='Drink'";
+
+if (isset($_GET['Name'], $_GET['Price'])) {
+    $name = $_GET['Name'];
+    $price = $_GET['Price'];
+    $stmt = $con->prepare("INSERT INTO shopping (Name, Price) VALUES (?, ?)");
+    $stmt->bind_param("ss", $name, $price);
+    if ($stmt->execute()) {
+        echo '<center><div class="alert alert-success custom-alert" role="alert">Pesanan kamu berhasil tersimpan.</div></center>';
+    } else {
+        echo "Upss.. terjadi kesalahan, coba lagi.";
+    }
+    $stmt->close();
+}
+
+$query = mysqli_query($con, $q);
+
+if (mysqli_num_rows($query) == 0) {
+  echo '<div class="container">
+  <div class="d-flex align-items-center vh-100">
+    <div class="mx-auto">
+      <h6 class="text-center display-4">There is no menu for now!</h6>
     </div>
+  </div>
+  </div>';
+} else {
+    echo '<center><div class="container">';
+    echo '<div class="row row-cols-1 row-cols-md-3 g-4 justify-content-evenly" >'; // Menggunakan grid dengan 3 kolom
+    
+    while ($hasil = mysqli_fetch_array($query)) {
+        echo '
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="' . $hasil['Photo'] . '" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">' . $hasil['Name'] . '</h5>
+                    <p class="card-text">' . $hasil['Description'] . '</p>
+                    <p class="card-text">' . $hasil['Price'] . '</p>
+                    <a href="meal.php?Name=' . $hasil["Name"] . '&Price=' . $hasil["Price"] . '" class="btn btn-primary">Order here</a>
+                </div>
+            </div>
+        </div>';
+    }
+    
+    echo '</div>';
+    echo '</div></center>';
+
+
+}
+
+?>
     <div class="text-center"> <!-- Tambahkan div untuk mengatur gambar di tengah -->
         <img class="rounded-circle mt-5 mx-auto" src="gambar1.png" alt="" style="width: 70px;">
     </div>
