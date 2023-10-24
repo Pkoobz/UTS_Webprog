@@ -47,7 +47,7 @@
 <nav class="navbar sticky-top navbar-expand-lg" style="background-image: linear-gradient(#6d25bb,#a12da4, #d36172);" data-bs-theme="dark">
   <div class="container-fluid d-flex justify-content-around">
     <a class="navbar-brand" href="#">
-    <img src="./gambar/tacobell.png" alt="Bootstrap" width="60px">
+    <img src="./gambar/tacobell.png" alt="taco bell" width="60px">
     </a>
     <a class="navbar-brand" href="#">
       <h1 >Taco Bell<small  class="display-6">-AdminHub</small></h1>
@@ -58,7 +58,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Logout</a>
+          <a class="nav-link" aria-current="page" href="homepageUserUnlogin.php">Logout</a>
         </li>
       </ul>
     </div>

@@ -47,7 +47,7 @@
 							</a>
 						</div>
 						</nav>
-	    				<form action="login_user_proses.php" method="POST">
+	    				<form action="login_admin_prosess.php" method="POST">
 							<input type="text" name="username" placeholder="username">
 							<input type="password" name="password" placeholder="password">
 							<!-- <span><input type="submit" value=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span> -->
