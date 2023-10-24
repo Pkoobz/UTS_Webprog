@@ -1,4 +1,4 @@
-	<head>
+<head>
 		<meta charset="utf-8">
    		<meta name="keywords" content="Admin Login By Zaki" >
     	<meta name="description" content="Admin Login By Zaki" >
@@ -39,7 +39,7 @@
 	    				<p><span>Login</span> To your account to see what <br>we have for you.</p><br>
 						<nav class="navbar sticky-top navbar-expand-lg" style="background-image: linear-gradient(#6d25bb,#a12da4, #d36172);" data-bs-theme="dark">
 						<div class="container-fluid">
-							<a class="nav-link" href="login_user.php" style="color:white">
+							<a class="nav-link" href="login_user.php"  style="color:white">
 							User
 							</a>
 							<a class="nav-link" href="login_admin.php"  style="color:white">
