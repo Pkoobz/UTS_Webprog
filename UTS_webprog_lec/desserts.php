@@ -112,7 +112,7 @@
 
         // Fungsi untuk membuka halaman keranjang saat tombol keranjang diklik
         $("#open-cart").click(function () {
-            window.location.href = "keranjang.php";
+            window.location.href = "add_to_cart.php";
         });
     });
 </script>
