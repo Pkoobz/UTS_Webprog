@@ -7,5 +7,13 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL
 );
 
+CREATE TABLE todos (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    data_time DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    checked BOOLEAN NOT NULL
+);
+
+
 referensi login css
 https://codepen.io/ayush602/pen/mdQJreW

@@ -10,7 +10,7 @@
     </style>
 </head>
 <body>
-<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" style="background-color: #efffff;">
+<nav class="navbar sticky-top navbar-expand-lg" style="background-color: #68298c;">
   <div class="container-fluid d-flex justify-content-around">
     <a class="navbar-brand" href="#">
       <h4 class="display-6">AnyFood<small class="text-body-secondary">-UserHub</small></h4>
