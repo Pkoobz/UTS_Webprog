@@ -133,6 +133,7 @@
                 <option selected>Choose...</option>
                 <option value="Food" <?php echo ($type === 'Food') ? 'selected' : ''; ?>>Food</option>
                 <option value="Drink" <?php echo ($type === 'Drink') ? 'selected' : ''; ?>>Drink</option>
+                <option value="Dessert" <?php echo ($type === 'Dessert') ? 'selected' : ''; ?>>Dessert</option>
             </select>
         </div>
         
