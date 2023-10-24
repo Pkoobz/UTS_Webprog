@@ -12,8 +12,11 @@
 <body>
 <nav class="navbar sticky-top navbar-expand-lg" style="background-image: linear-gradient(#6d25bb,#a12da4, #d36172);" data-bs-theme="dark">
   <div class="container-fluid d-flex justify-content-around">
+  <a class="navbar-brand" href="#">
+    <img src="./gambar/tacobell.png" alt="taco bell" width="60px">
+    </a>
     <a class="navbar-brand" href="#">
-      <h1 style="font-size:50px;">AnyFood</h1>
+      <h1 style="font-size:50px;">Taco Bell</h1>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
