@@ -113,7 +113,7 @@ while ($hasil = mysqli_fetch_array($query)) {
         <center>
           <form method="post" action="homepageAdmin.php?Name=' . $hasil["Name"] . '" onsubmit="return confirm(\'Are you sure you want to delete '.$hasil["Name"].'?\');">
           <button type="submit" class="btn btn-danger btn-lg custom-button2">
-            <h2 style="font-family: verdana; font-size: 20px;">anandandna</h2>
+            <h2 style="font-family: verdana; font-size: 20px;">X</h2>
           </button>
           </form>
         </center>
