@@ -6,7 +6,7 @@
     <title>Mam Pus</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
-
+      
     </style>
 </head>
 <body>
@@ -27,83 +27,38 @@
     </div>
   </div>
 </nav>
-    <div class="">
-        <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./gambar/gambar2.png" class="d-block w-100" alt="#">
-          </div>
-          <div class="carousel-item">
-            <img src="./gambar/gambar3.png" class="d-block w-100" alt="#">
-          </div>
-          <div class="carousel-item">
-            <img src="./gambar/gambar4.png" class="d-block w-100" alt="#">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" ariahidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>  
-      </div>
       <div class="text-center"> <!-- Tambahkan div untuk mengatur gambar di tengah -->
                 <img class="rounded-circle mt-5 mx-auto" src="gambar1.png" alt="" style="width: 70px;">
             </div>
-          <p class="text-center fw-bold fs-1">OUR MENU</p>
+          <p class="text-center fw-bold fs-1">DRINKS</p>
     </div>
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-4 mb-5">
-              <a href="minuman.php">
+              <a href="homepageUser.php">
                 <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail custom-image">
               </a>
             </div>
             <div class="col-md-4 mb-5">
-              <a href="meal.php">
                 <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail">
-              </a>
             </div>
             <div class="col-md-4 mb-5">
-              <a href="desserts.php">
                 <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail">
-              </a>
+            </div>
+            <div class="col-md-4 mb-5">
+                <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail">
+            </div>
+            <div class="col-md-4 mb-5">
+                <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail">
+            </div>
+            <div class="col-md-4 mb-5">
+                <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail">
             </div>
         </div>
     </div>
     <div class="text-center"> <!-- Tambahkan div untuk mengatur gambar di tengah -->
         <img class="rounded-circle mt-5 mx-auto" src="gambar1.png" alt="" style="width: 70px;">
     </div>
-  <p class="text-center fw-bold fs-1">@instagram</p>
-</div>
-<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="./gambar/diskon2.png" class="d-block w-100" alt="#">
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="./gambar/diskon3.png" class="d-block w-100" alt="#">
-      </div>
-      <div class="carousel-item">
-        <img src="./gambar/diskon2.png" class="d-block w-100" alt="#">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
   <div class="mt-5">
   <ul class="nav justify-content-center">
     <li class="nav-item">
