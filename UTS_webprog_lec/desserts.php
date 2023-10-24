@@ -18,6 +18,9 @@
         <a class="navbar-brand" href="#">
             <h1>Dessert</h1>
         </a>
+        <a id="open-cart" class="navbar-brand" href="add_to_cart.php">
+          <img src="./gambar/keranjang.png" alt="Keranjang" style="width: 100px; height: 75px;">
+        </a>
     </div>
    
 </nav>
@@ -80,5 +83,38 @@
     </ul>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+// cek makanan yang sudah di pilih
+<script>
+    $(document).ready(function () {
+        $(".add-to-cart").click(function () {
+            var foodId = $(this).data("foodid");
+            var foodName = $(this).data("foodname");
+            var price = $(this).data("price");
+
+            // Send an AJAX request to add the item to the cart
+            $.ajax({
+                type: "POST",
+                url: "add_to_cart.php", // Create this PHP file to handle the cart addition
+                data: {
+                    food_id: foodId,
+                    food_name: foodName,
+                    price: price
+                },
+                success: function (response) {
+                    if (response === "success") {
+                        alert("Item added to cart!");
+                    } else {
+                        alert("Failed to add item to cart.");
+                    }
+                }
+            });
+        });
+
+        // Fungsi untuk membuka halaman keranjang saat tombol keranjang diklik
+        $("#open-cart").click(function () {
+            window.location.href = "keranjang.php";
+        });
+    });
+</script>
 </body>
 </html>
