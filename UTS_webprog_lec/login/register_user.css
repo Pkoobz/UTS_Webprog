@@ -8,10 +8,12 @@
 }
 
 body {
-  background: linear-gradient(9deg, rgb(211, 217, 231), rgb(175, 186, 206));
-  background: -webkit-linear-gradient(9deg, rgb(211, 217, 231), rgb(175, 186, 206));
-  font-family: 'Roboto', sans-serif;
-  overflow: hidden;
+	background-image: url('image/tacos.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  	font-family: 'Roboto', sans-serif;
+  	overflow: hidden;
 }
 
 
@@ -19,7 +21,6 @@ body {
 	margin: 80px 10%;
 }
 
-/* Start Navigation here */
 .nav {
 	background-color:#fff;
 	min-width: 160px;
@@ -46,7 +47,7 @@ body {
 	display: block;
 	padding: 0px 11px;
 	text-decoration: none;
-	color:#BEBEC0;
+	color:#A77BCA;
 	font-weight: 400;
 	font-size: 14px;
 
@@ -57,7 +58,7 @@ body {
 
 hr {
 	padding:25px 5px;
-	background-color: #031DD2;
+	background-color: #702082;
 	position: absolute;
 	display:block;
 	top: 26%;
@@ -70,22 +71,12 @@ hr {
 	top:41%;
 }
 
-.nav ul .move3:hover ~ hr {
-	top:56%;
-}
-
-.nav ul .move4:hover ~ hr {
-	top:71%;
-}
-
 .fa {
-	color: #BEBEC0;
+	color: #A77BCA;
 }
-/* Start Navigation here */
 
-/* Start Introduction */
 .intro {
-	background-color: #1A33D5;
+	background-color: #702082;
     min-height: 520px;
     min-width: 500px;
     position: absolute;
@@ -131,9 +122,6 @@ hr {
 
 	margin-right: 15px;
 }
-/* End Introduction */
-
-/* Start The Forms */
 
 .container {
 	position: relative;
@@ -147,30 +135,30 @@ hr {
 
 .container .login {
 	position: absolute;
-	top:0;
+	top:-30;
 	left:0;
 	background-color: #fff;
 	min-width: 160px;
 	min-height: 470px;
 	border-radius: 0px 10px 10px 0px;
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
-	padding:15px;
-	padding-top: 15px;
+	padding:25px;
+	padding-top: 20px;
 }
 .container .login p{
-	color:#BEBEC0;
+	color:#A77BCA;
 	font-size: 11px;
 	font-weight: 500;
 	line-height: 20px;
 }
 
 .container .login b{
-	color:#BEBEC0;
+	color:#A77BCA;
 	font-size: 11px;
 	font-weight: 500;
 }
 .container .login p span  a  , .container .login p span, .container .login b span  a  , .container .login b span  {
-	color:#1A33D5;
+	color:#702082;
 	font-weight: 900;
 	font-size:13px;
 	text-decoration:none;
@@ -180,7 +168,7 @@ hr {
 	margin-bottom:10px;
 	padding:13px 15px;
 	width:275px;
-	color:#BEBEC0;
+	color:#A77BCA;
 	outline:none;
 	transition: .6s linear;
 	color:#757575;
@@ -198,7 +186,7 @@ hr {
 	width:40px;
 	height:40px;
 	margin: 5px auto ;
-	background-color:#1A33D5;
+	background-color:#702082;
 	color:#fff;
 	outline:none;
 	display:block;
