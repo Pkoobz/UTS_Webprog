@@ -56,10 +56,10 @@
 
 <?php
 $con = mysqli_connect("localhost", "root", "", "restoran_testing");
-$q = "SELECT * FROM `food data`";
+$q = "SELECT * FROM `food_data`";
 
 if (isset($_GET['Name'])){  
-    $q3 = "DELETE FROM `food data` WHERE Name='".$_GET['Name']."'";
+    $q3 = "DELETE FROM `food_data` WHERE Name='".$_GET['Name']."'";
     $queryDelete = mysqli_query($con, $q3);
 }
 $query = mysqli_query($con, $q);
