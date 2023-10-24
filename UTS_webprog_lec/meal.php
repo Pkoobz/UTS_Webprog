@@ -30,23 +30,23 @@
         <div class="row">
             <div class="col-md-4 mb-5">
               <a href="homepageUser.php">
-                <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail custom-image">
+                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail custom-image">
               </a>
             </div>
             <div class="col-md-4 mb-5">
-                <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail">
+                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail">
             </div>
             <div class="col-md-4 mb-5">
-                <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail">
+                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail">
             </div>
             <div class="col-md-4 mb-5">
-                <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail">
+                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail">
             </div>
             <div class="col-md-4 mb-5">
-                <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail">
+                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail">
             </div>
             <div class="col-md-4 mb-5">
-                <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail">
+                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail">
             </div>
         </div>
     </div>
