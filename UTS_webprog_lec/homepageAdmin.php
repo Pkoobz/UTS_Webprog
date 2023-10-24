@@ -32,14 +32,22 @@
         box-shadow: 0 5px #111;
         transform: translateY(4px);
       }
+
+      .logout-custom {
+        color:#BBB !important;
+      }
+
+      .logout-custom:hover {
+        color:#fff !important;
+      }
     </style>
      
 </head>
 <body>
-<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" style="background-color: #efffff;">
+<nav class="navbar sticky-top navbar-expand-lg" style="background-image: linear-gradient(#6d25bb,#a12da4, #d36172);" data-bs-theme="dark">
   <div class="container-fluid d-flex justify-content-around">
     <a class="navbar-brand" href="#">
-      <h4 class="display-6">AnyFood<small class="text-body-secondary">-AdminHub</small></h4>
+      <h1 >AnyFood<small  class="display-6">-AdminHub</small></h1>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

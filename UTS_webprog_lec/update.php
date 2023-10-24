@@ -23,13 +23,13 @@
     </style>
 </head>
 <body>
-<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" style="background-color: #efffff;">
+<nav class="navbar sticky-top navbar-expand-lg" style="background-image: linear-gradient(#6d25bb,#a12da4, #d36172);" data-bs-theme="dark">
     <div class="container-fluid d-flex ">
         <a class="navbar-brand" href="homepageAdmin.php">
-            <h4 class="display-5">< <small class="text-body-secondary">go back</small></h4>
+            <h4 class="display-5">< <small style="color:#EEE;">go back</small></h4>
         </a>
         <a class="navbar-brand" href="#">
-            <h4 class="display-6">Update Data</h4>
+            <h1 >Update Data</h1>
         </a>
     </div>
 </nav>
