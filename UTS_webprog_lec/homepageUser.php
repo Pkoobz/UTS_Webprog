@@ -63,17 +63,17 @@
         <div class="row">
             <div class="col-md-4 mb-5">
               <a href="minuman.php">
-                <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail custom-image">
+                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail custom-image">
               </a>
             </div>
             <div class="col-md-4 mb-5">
               <a href="meal.php">
-                <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail">
+                <img src="./gambar/katalog2.png" alt="" class="img-thumbnail">
               </a>
             </div>
             <div class="col-md-4 mb-5">
               <a href="desserts.php">
-                <img src="./gambar/katalog1.jpg" alt="" class="img-thumbnail">
+                <img src="./gambar/katalog3.png" alt="" class="img-thumbnail">
               </a>
             </div>
         </div>
