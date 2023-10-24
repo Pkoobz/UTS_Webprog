@@ -55,7 +55,7 @@
 </nav>
 
 <?php
-$con = mysqli_connect("localhost", "root", "", "restoran_testing");
+$con = mysqli_connect("localhost", "root", "", "restoran_database");
 $q = "SELECT * FROM `food data`";
 
 if (isset($_GET['Name'])){  

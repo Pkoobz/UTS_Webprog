@@ -37,7 +37,7 @@
 <?php
 
 $con = mysqli_connect(
-    "localhost", "root", "", "restoran_testing");
+    "localhost", "root", "", "restoran_database");
 $data = [
     'Name' => '',
     'Price' => '',
