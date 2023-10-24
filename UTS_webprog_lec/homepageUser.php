@@ -10,10 +10,10 @@
     </style>
 </head>
 <body>
-<nav class="navbar sticky-top navbar-expand-lg" style="background-color: #68298c;">
+<nav class="navbar sticky-top navbar-expand-lg" style="background-image: linear-gradient(#6d25bb,#a12da4, #d36172);" data-bs-theme="dark">
   <div class="container-fluid d-flex justify-content-around">
     <a class="navbar-brand" href="#">
-      <h4 class="display-6">AnyFood<small class="text-body-secondary">-UserHub</small></h4>
+      <h1 style="font-size:50px;">AnyFood</h1>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -63,17 +63,17 @@
         <div class="row">
             <div class="col-md-4 mb-5">
               <a href="minuman.php">
-                <img src="./gambar/katalog1.png" alt="" class="img-thumbnail custom-image">
+                <img src="./gambar/katalog1.png" alt="Drink" class="img-thumbnail custom-image">
               </a>
             </div>
             <div class="col-md-4 mb-5">
               <a href="meal.php">
-                <img src="./gambar/katalog2.png" alt="" class="img-thumbnail">
+                <img src="./gambar/katalog2.png" alt="Meal" class="img-thumbnail">
               </a>
             </div>
             <div class="col-md-4 mb-5">
               <a href="desserts.php">
-                <img src="./gambar/katalog3.png" alt="" class="img-thumbnail">
+                <img src="./gambar/katalog3.png" alt="Dessert" class="img-thumbnail">
               </a>
             </div>
         </div>

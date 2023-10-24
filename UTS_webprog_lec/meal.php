@@ -10,22 +10,16 @@
     </style>
 </head>
 <body>
-<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" style="background-color: #efffff;">
-  <div class="container-fluid d-flex justify-content-around">
-    <a class="navbar-brand" href="#">
-      <h4 class="display-6">AnyFood<small class="text-body-secondary">-UserHub</small></h4>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Logout</a>
-        </li>
-      </ul>
+<nav class="navbar sticky-top navbar-expand-lg" style="background-image: linear-gradient(#6d25bb,#a12da4, #d36172);" data-bs-theme="dark">
+    <div class="container-fluid d-flex ">
+        <a class="navbar-brand" href="homepageUser.php">
+            <h4 class="display-5">< <small style="color:#EEE;">go back</small></h4>
+        </a>
+        <a class="navbar-brand" href="#">
+            <h1>Meal</h1>
+        </a>
     </div>
-  </div>
+   
 </nav>
       <div class="text-center"> <!-- Tambahkan div untuk mengatur gambar di tengah -->
                 <img class="rounded-circle mt-5 mx-auto" src="gambar1.png" alt="" style="width: 70px;">
