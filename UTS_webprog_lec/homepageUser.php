@@ -23,6 +23,9 @@
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">Logout</a>
         </li>
+        <li>
+          <a href=""><img src="./gambar/keranjang2.png" alt="" class="img" style="max-width: 50px; height: auto;"></a>
+        </li>
       </ul>
     </div>
   </div>
@@ -111,9 +114,6 @@
     </li>
     <li class="nav-item">
       <a class="nav-link text-dark" aria-disabled="true" href="#">FAQS</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-dark" aria-disabled="true">CONTACT US</a>
     </li>
   </ul>
 </div>
