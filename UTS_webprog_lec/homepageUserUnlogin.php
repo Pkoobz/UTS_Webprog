@@ -112,9 +112,6 @@
     <li class="nav-item">
       <a class="nav-link text-dark" aria-disabled="true" href="#">FAQS</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link text-dark" aria-disabled="true">CONTACT US</a>
-    </li>
   </ul>
 </div>
   <div class="container">
