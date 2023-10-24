@@ -82,7 +82,7 @@
             $folder = "./image/" . $filename;
 
             $con = mysqli_connect(
-                "localhost", "root", "", "restoran_testing");
+                "localhost", "root", "", "restoran_database");
 
             $q2 = "INSERT INTO `food data` 
                     (Name, Price, Type, Description, Photo)
