@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
     <div class="main-section">
         <div class="add-section"> 
             <form action="app/add.php" method="POST" autocomplete="off">
@@ -38,37 +39,45 @@
             <?php if($todos->rowCount() <= 0){ ?> 
                 <div class="todo-item">
                     <div class="empty">
-                        <img src="img/gif.gif" width="100%" >
+                        <img src="img/gif.gif" width="80%" >
                     </div>
                 </div>
             <?php } ?>
-            
-                <?php while($todo = $todos->fetch(PDO::FETCH_ASSOC)) { ?>    
-                    <div class="todo-item">
-                        <span id="<?php echo $todo['id']; ?>"
-                            class="remove-to-do">x</span>
-                        <?php if($todo['checked']){ ?>
-                            <input type="checkbox"
+                <div class="todo-scroll">
+                    <?php while($todo = $todos->fetch(PDO::FETCH_ASSOC)) { ?>    
+                        <div class="todo-item">
+                            <span id="<?php echo $todo['id']; ?>"
+                                class="remove-to-do">x</span>
+                            <?php if($todo['checked']){ ?>
+                                <input type="checkbox"
                                    class="check-box"
                                    data-todo-id ="<?php echo $todo['id']; ?>"
                                    checked />
-                            <h2 class="checked"><?php echo htmlspecialchars($todo['title'], ENT_QUOTES, 'UTF-8'); ?></h2>
+                                <h2 class="checked"><?php echo htmlspecialchars($todo['title'], ENT_QUOTES, 'UTF-8'); ?></h2>
 
-                        <?php } else { ?>
-                            <input type="checkbox"
+                            <?php } else { ?>
+                                <input type="checkbox"
                                    data-todo-id ="<?php echo $todo['id']; ?>"
                                    class="check-box" />
-                            <h2><?php echo htmlspecialchars($todo['title'], ENT_QUOTES, 'UTF-8'); ?></h2>
-                        <?php } ?>
-                        <br>
+                                <h2><?php echo htmlspecialchars($todo['title'], ENT_QUOTES, 'UTF-8'); ?></h2>
+                            <?php } ?>
+                            <br>
+                            <div class="progress-section">
+                                <label for="progress-dropdown">Progress:</label>
+                                    <select id="progress-dropdown">
+                                        <option value="Not yet started">Not yet started</option>
+                                        <option value="In Progress">In Progress</option>
+                                        <option value="Waiting On">Waiting On</option>
+                                    </select>
+                            </div>
                         <small>created: <?php echo $todo['data_time'] ?></small> 
-                    </div>
-                <?php } ?>        
+                        </div>
+                    
+                    <?php } ?>
+                </div>
         </div>
     </div>
-
     <script src="js/jquery-3.2.1.min.js"></script>
-
     <script>
         $(document).ready(function(){
             $('.remove-to-do').click(function(){
@@ -104,7 +113,18 @@
                     }
                 );
             });
+    function updateProgressStatus() {
+        const dropdown = document.getElementById("progress-dropdown");
+        const selectedOption = dropdown.options[dropdown.selectedIndex].value;
+
+        const progressStatus = document.getElementById("progress-status");
+        progressStatus.innerText = `Progress: ${selectedOption}`;
+    }
+    const dropdown = document.getElementById("progress-dropdown");
+    dropdown.addEventListener("change", updateProgressStatus);
+    updateProgressStatus();
         });
     </script>
+</section>
 </body>
 </html>
