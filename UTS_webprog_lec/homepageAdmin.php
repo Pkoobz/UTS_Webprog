@@ -115,7 +115,7 @@ while ($hasil = mysqli_fetch_array($query)) {
   echo "<td>{$hasil['Price']}</td>";
   echo "<td>{$hasil['Type']}</td>";
   echo "<td>{$hasil['Description']}</td>";
-  echo "<td class='align-middle text-center'><center><img src='./image/{$hasil['Photo']}' style='width: 150px;border: 2px solid #222; padding: 2px;' class='img-fluid rounded'></center></td>";
+  echo "<td class='align-middle text-center'><center><img src='./image_menu/{$hasil['Photo']}' style='width: 150px;border: 2px solid #222; padding: 2px;' class='img-fluid rounded'></center></td>";
   echo '<td class="align-middle text-center"><div class="container">
     <div class="mx-auto">
         <center>

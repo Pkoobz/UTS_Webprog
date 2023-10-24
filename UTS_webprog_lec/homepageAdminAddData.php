@@ -79,7 +79,7 @@
     
             $filename = $_FILES["photo"]["name"];
             $tempname = $_FILES["photo"]["tmp_name"];
-            $folder = "./image/" . $filename;
+            $folder = "./image_menu/" . $filename;
 
             $con = mysqli_connect(
                 "localhost", "root", "", "restoran_database");
