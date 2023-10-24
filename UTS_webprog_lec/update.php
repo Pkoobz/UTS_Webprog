@@ -125,6 +125,7 @@ if (isset($_GET['Description'])) {
                 <option selected>Choose...</option>
                 <option value="Food" <?php echo ($data['Type'] === 'Food') ? 'selected' : ''; ?>>Food</option>
                 <option value="Drink" <?php echo ($data['Type'] === 'Drink') ? 'selected' : ''; ?>>Drink</option>
+                <option value="Dessert" <?php echo ($data['Type'] === 'Dessert') ? 'selected' : ''; ?>>Dessert</option>
             </select>
         </div>
         
