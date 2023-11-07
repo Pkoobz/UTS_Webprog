@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Logout</a>
+          <a class="nav-link" aria-current="page" href="homepageUserUnlogin.php">Logout</a>
         </li>
         <li>
           <a href="shoppingcart.php"><img src="./gambar/keranjang2.png" alt="" class="img" style="max-width: 50px; height: auto;"></a>

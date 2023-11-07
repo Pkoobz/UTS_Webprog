@@ -24,7 +24,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Login</a>
+          <a class="nav-link" aria-current="page" href="login/login_user.php">Login</a>
         </li>
       </ul>
     </div>
@@ -75,7 +75,7 @@
               </a>
             </div>
             <div class="col-md-4 mb-5">
-              <a href="dessertsUnlogin.php">
+              <a href="dessertUnlogin.php">
                 <img src="./gambar/katalog3.png" alt="Dessert" class="img-thumbnail">
               </a>
             </div>
